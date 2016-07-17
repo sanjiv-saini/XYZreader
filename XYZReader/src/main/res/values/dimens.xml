@@ -9,6 +9,6 @@
     <dimen name="fab_margin">24dp</dimen>
 
     <!--list item article-->
-    <dimen name="text_left_right_padding">8dp</dimen>
+    <dimen name="item_info_padding">8dp</dimen>
 
 </resources>

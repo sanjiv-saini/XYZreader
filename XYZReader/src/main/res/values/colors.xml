@@ -28,4 +28,6 @@
     <color name="deep_orange_700">#E64A19</color>
     <color name="cyan_a400">#00E5FF</color>
 
+    <color name="white">#fff</color>
+
 </resources>
