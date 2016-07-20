@@ -8,14 +8,14 @@
         android:id="@+id/toolbar_container"
         android:layout_width="match_parent"
         android:layout_height="112dp"
-        android:background="?colorPrimary"
-        android:elevation="8dp">
+        android:background="?colorPrimary">
 
         <android.support.design.widget.CollapsingToolbarLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:contentScrim="?colorPrimary"
-            app:layout_scrollFlags="scroll|exitUntilCollapsed|enterAlways">
+            android:elevation="8dp"
+            app:layout_scrollFlags="scroll|enterAlways">
 
             <android.support.v7.widget.Toolbar
                 android:id="@+id/toolbar"
@@ -24,9 +24,9 @@
                 android:layout_marginRight="@dimen/list_toolbar_side_margin"
                 android:layout_width="match_parent"
                 android:layout_gravity="bottom"
-                app:elevation="8dp"
                 android:layout_height="?actionBarSize"
                 app:layout_collapseParallaxMultiplier="0"
+                app:elevation="8dp"
                 app:layout_collapseMode="parallax">
 
             <ImageView
